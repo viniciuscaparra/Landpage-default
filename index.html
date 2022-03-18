@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/img/ico/favicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/ico/favicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/ico/favicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/ico/favicon.png">
+    <link rel="apple-touch-icon" href="assets/img/ico/favicon.png">
+
+    <title>ATHOS</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+
+    <!-- Customizacao CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Customizacao Fonts -->
+    <link href="assets/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/pe-icons.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+           'use strict';
+        jQuery('#headerwrap').backstretch([
+          "assets/img/bg/bg1.jpg"
+        ], {duration: 8000, fade: 500});
+
+        $("#mapwrapper").gMap({ controls: false,
+            scrollwheel: false,
+            markers: [{     
+                latitude:-23.565090,
+                longitude: -46.636553,
+            icon: { image: "assets/img/marker.png",
+                iconsize: [44,44],
+                iconanchor: [12,46],
+                infowindowanchor: [12, 0] } }],
+            icon: { 
+                image: "assets/img/marker.png", 
+                iconsize: [26, 46],
+                iconanchor: [12, 46],
+                infowindowanchor: [12, 0] },
+            latitude:-23.565090,
+            longitude: -46.636553,
+            zoom: 14 });
+    });
+    </script>
+
+</head>
+
+<body id="page-top" class="index">
+
+    <div class="preloader">
+        <div class="preloader-img">
+        	<img src="assets/img/loading-bars.svg" width="50" alt="Loading icon" />
+        </div>
+    </div>
+
+    <!-- Barra menu  -->
+    
+
+    <div id="search-wrapper">
+        <button type="button" class="close">×</button>
+        <form>
+            <input type="search" value="" placeholder="Digite o que procura!" />
+            <button type="submit" class="btn btn-primary">Procurar</button>
+        </form>
+    </div>
+
+    <!-- Header -->
+    <header id="headerwrap" class="fullheight">
+        <nav class="navbar navbar-default navbar-shrink bounceInDown" data-wow-delay="2s">
+        <div class="container">
+            
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="/assets/img/fak.png"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Home <span class="caret"></span></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Portfolio <span class="caret"></span></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Lorem <span class="caret"></span></a>
+                    </li>
+                    <li><a href="#search"><i class="pe-7s-search"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in wow bounceInDown" data-wow-delay="0.5s">Podemos te ajudar <span class="wodry"> A Criar|A Imaginar|A Criar</span></div>
+                <div class="intro-heading wow bounceInUp" data-wow-delay="1s">Lorem Ipsum</div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="background-buildings">
+        <div class="section-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center wow fadeInDown">
+                            <span>
+                                <img src="../assets/img/portfolio/port.png" alt="">
+                            </span>
+                        <h2 class="section-heading"><strong>Lorem</strong> Portfolio</h2>
+                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    </div>
+                </div>
+                <div class="row wow fadeInUp">
+                    <ul class="portfolio-items col-3 isotope direction-aware">
+                        <li class="col-md-4 portfolio-item da-item apps isotope-item">
+                            <a class="lb-link" href="assets/img/portfolio/portfolio1.jpg" title="View Image">
+                                <img src="assets/img/portfolio/portfolio1.jpg" class="img-responsive" alt="">
+                                <div>
+                                    <div class="portfolio-hover-content">
+                                        <i class="pe-7s-close fa-3x"></i>
+                                    </div>
+                                </div>                                
+                            </a>
+                        </li>
+                        <li class="col-md-4 portfolio-item da-item design isotope-item">
+                            <a class="lb-link" href="assets/img/portfolio/portfolio2.jpg" title="View Image">
+                                <img src="assets/img/portfolio/portfolio2.jpg" class="img-responsive" alt="">
+                                <div>
+                                    <div class="portfolio-hover-content">
+                                        <i class="pe-7s-close fa-3x"></i>
+                                    </div>
+                                </div>                                
+                            </a>
+                        </li>
+                        <li class="col-md-4 portfolio-item da-item photography isotope-item">
+                            <a class="lb-link" href="assets/img/portfolio/portfolio3.jpg" title="View Image">
+                                <img src="assets/img/portfolio/portfolio4.jpg" class="img-responsive" alt="">
+                                <div>
+                                    <div class="portfolio-hover-content">
+                                        <i class="pe-7s-close fa-3x"></i>
+                                    </div>
+                                </div>                                
+                            </a>
+                        </li>
+                        <li class="col-md-5 portfolio-item da-item video isotope-item" style="position: absolute; left: 0px; top: 389px; width: 50%;">
+                            <a class="lb-link" href="assets/img/portfolio/portfolio5.jpg" title="View Image">
+                                <img src="assets/img/portfolio/portfolio6.jpg" class="img-responsive" alt="">
+                                <div>
+                                    <div class="portfolio-hover-content">
+                                        <i class="pe-7s-close fa-3x"></i>
+                                    </div>
+                                </div>                                
+                            </a>
+                        </li>
+                        <li class="col-md-5 portfolio-item da-item design isotope-item" style="position: absolute; left: 0px; top: 389px; width: 50%;">
+                            <a class="lb-link" href="assets/img/portfolio/portfolio7.jpg" title="View Image">
+                                <img src="assets/img/portfolio/portfolio7.jpg" class="img-responsive" alt="">
+                                
+
+                                <div>
+                                    <div class="portfolio-hover-content">
+                                        <i class="pe-7s-close fa-3x"></i>
+                                    </div>
+                                </div>                                
+                            </a>
+                        </li>                                      
+                    </ul>
+                </div>
+            </div>
+                        <h5 class="abaixo-portf"><strong>Lorem</strong> Portfolio</h5></br></br>
+                            <h5 class="abaixo-portf2">
+                            Lorem ipsum dolor sit amet consectetur.</br>
+                            Lorem ipsum dolor sit amet consectetur.</br></br>
+                        </h5>
+                        <div class="foto">
+                                <img src="assets/img/portfolio/teste.jpg" class="img-responsive" alt="">
+                        </div>                                     
+        </div>
+    </section>
+    <section id="mapwrapper">
+    </section>
+
+    <section id="contact">
+        <div class="section-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center wow fadeInDown">
+                        <h4 class="section-heading"><strong>Contate</strong> nos</h4>
+                        <h6 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="message"></div>
+                        <form method="post" action="sendemail.php" id="contactform">
+                            <p><input type="text" class="form-control" name="name" placeholder="Seu nome *" id="name" required data-validation-required-message="Por gentileza, coloque seu nome" /></p>
+                            <p><input type="text" class="form-control" name="email" placeholder="Seu E-mail *" id="email" required data-validation-required-message="Por gentileza, coloque seu e-mail" /></p>
+                            <p ><input type="text" class="form-control" name="website" placeholder="Seu site *" id="website" required data-validation-required-message="Por gentileza, coloque seu site" /></p>
+                            <p><textarea name="comments" class="form-control" id="comments" placeholder="Sua mensagem *" required data-validation-required-message="Por gentileza, deixe sua mensagem"></textarea></p>
+                            <input class="btn btn-outlined btn-primary pull-right" type="submit" name="submit" value="Enviar" />
+                        </form>
+                    </div>
+                    <div class="widget col-md-3 col-sm-6">
+                        <h4 class="widget-title"><strong>Contatos</strong></h4>
+                        <div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img class="widget-img" src="assets/img/widget/ic-email.png" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <span class="media-heading"><a href="#">Lorem@email</a></span>
+                                    <small class="muted">Nos deixe um e-mail</small>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img class="widget-img" src="assets/img/widget/ic-telefone.png" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <span class="media-heading"><a href="#">(11)0 0000-0000</a></span>
+                                    <small class="muted">Entre em contato conosco</small>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img class="widget-img" src="assets/img/widget/ic-telefone.png" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <span class="media-heading"><a href="#">(11)0 0000-0000</a></span>
+                                    <small class="muted">Entre em contato conosco</small>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="divider-wrapper-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright wow fadeInUp">Design by Vinicius Pereira Caparra</span>
+                </div>
+                <div class="col-md-4 text-center">
+                    <a href="#" id="back-to-top"><i class="pe-7s-angle-up fa-4x"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="assets/js/plugins.js"></script>
+
+    <!-- Plugins -->
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="assets/js/jqBootstrapValidation.js"></script>
+    <script src="assets/js/contact_me.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/init.js"></script>
+
+</body>
+
+</html>
